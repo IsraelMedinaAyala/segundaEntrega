@@ -1,0 +1,39 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Rubik+Moonrocks&display=swap');
+
+body{
+    font-family: 'Passion+One&family=Rubik+Moonrocks', sans-serif;
+    overflow-x: hidden;
+}   
+
+#menu li > a {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(31, 36, 31, 0.484);
+}
+
+menu form > button{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.carousel-inner > .item > img {
+    width:640px;
+    height:360px;
+  }
+
+@media (max-width:768px){
+    #intro{
+        width: 90% !important;
+    }
+}
+
+a {
+    transition: background-color .5s;
+  }
+  
+  a:hover {
+    background-color: gold;
+  }
+
